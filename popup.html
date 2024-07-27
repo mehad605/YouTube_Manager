@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Manager</title>
+    <style>
+      body {
+        width: 200px;
+        padding: 10px;
+      }
+      button,
+      input {
+        width: 100%;
+        margin: 5px 0;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="exportBtn">Export Subscriptions</button>
+    <input type="file" id="fileInput" accept=".json" style="display: none" />
+    <button id="importBtn">Import Subscriptions</button>
+    <div id="fileContents"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
